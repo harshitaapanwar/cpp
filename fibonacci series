@@ -3,7 +3,7 @@ using namespace std;
 int main()
 {
     int i=0,j=1,b=1,a,c;
-    cout<<"Enter last digit of Fibonnaci series=";
+    cout<<"Enter last number of Fibonnaci series=";
     cin>>a;
     cout<<i<<"\n";
     cout<<j<<"\n";
