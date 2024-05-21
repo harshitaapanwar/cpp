@@ -1,0 +1,16 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    int rev=0,r,n;
+    cout<<"Enter a number=";
+    cin>>n; 
+    while(n>0)
+    {
+        r=n%10;
+        rev=r+(rev*10);
+        n=n/10;
+    }
+    cout<<"The reverse of a number="<<rev;
+    return 0;
+}
